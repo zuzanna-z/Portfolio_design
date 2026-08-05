@@ -54,9 +54,15 @@ button {
   writing-mode: sideways-rl;
   text-orientation: mixed;
   line-height: 0;
-  font-size: 14px;
+  font-size: 16px; 
+  font-weight: 500;
   z-index: 10;
   color: var(--dark-blue);
+  transition: 0.3s ease-in-out;
+}
+
+#email:hover{
+  color: var(--green);
 }
 
 #deco_left_top {
@@ -82,10 +88,10 @@ button {
 #deco_right_side {
   z-index: 20;
   position: fixed;
-  bottom: 170px;
+  bottom: 100px;
   right: 10px;
   width: 5%;
-  height: calc(35vh - 110px);
+  height: calc(35vh - 60px);
   border-right: 1.5px solid var(--rasberry);
 }
 
