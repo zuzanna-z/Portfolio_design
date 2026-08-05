@@ -1,0 +1,148 @@
+body {
+  font-family: "Lexend", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  color: var(--black);
+  font-weight: 300;
+  /* background: linear-gradient(
+    90deg,
+    var(--blue) 0%,
+    var(--light-blue) 50%,
+    var(--light-purple) 100%); */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+#hero_img {
+  z-index: 15;
+  width: 65%;
+  height: 65vh;
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/Aarhus_port_3.jpg");
+  background-size: cover;
+  background-position: 40%;
+  align-items: center;
+}
+
+#hero {
+  justify-content: space-between;
+  position: relative;
+}
+
+#hero_txt {
+  width: 50%;
+  padding: 100px 0 20px 30px;
+  color: var(--dark-blue);
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+}
+
+#hero_arrow{
+width: 70%;
+}
+
+#hero_txt p{
+font-weight: 200;
+}
+
+#hero_txt div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+}
+
+#hero_txt img {
+  width: 20vw;
+  margin: 20px 0 0 0;
+}
+
+#intro {
+  width: 100%;
+  padding: 0 10% 0 10%;
+  margin: 10vh 0 0 0;
+  align-items: center;
+}
+
+#intro > p {
+  width: 50%;
+  margin: 0 0 0 10%  ;
+}
+
+#carousel{
+  width: 50%;
+  max-width: 300px;
+}
+
+#carousel_img_wrapper{
+height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+
+#carousel_nav{
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+}
+#carousel_nav p{
+  text-align: center;
+  color: var(--dark-blue);
+  font-size: 36px;
+  line-height: 1px;
+  font-weight: 800;
+
+}
+#carousel_nav p{
+  margin: 0;
+}
+#carousel_nav button, #case_nav_art button{
+ background: none;
+ border: none;
+ transition: 0.2s ease-in-out;
+}
+#carousel_nav button:hover, #case_nav_art button:hover{
+  cursor: pointer;
+  /* transform: scale(1.2); */
+}
+#carousel_nav button:hover svg path, #case_nav_art button:hover svg path{
+  fill: var(--green);
+   transition: 0.2s ease-in-out;
+}
+
+
+.svgMask_hero {
+  -webkit-mask-image: url("../images/svg/hero_mask.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  -webkit-mask-mode: alpha;
+
+  mask-image: url("../images/svg/hero_mask.svg");
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-mode: alpha;
+}
+
+
+
+
+
+
+

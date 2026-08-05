@@ -1,0 +1,85 @@
+#edu_section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edu_art {
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.edu_arrow {
+  place-self: center;
+  /* margin-top: 40px; */
+  width: 30%;
+}
+
+#edu_arrow1 {
+  padding-top: 100px;
+}
+
+#edu_arrow1 img {
+  transform: rotate(40deg);
+}
+
+#edu_arrow2 img {
+  transform: rotate(-40deg);
+}
+
+.edu_place_hol_box {
+  width: 0%;
+}
+
+.edu_arrow img {
+  margin-left: 50px;
+}
+.edu_art p {
+  margin: 5px 0;
+}
+
+.edu_art p.edu_summary {
+  margin: 20px 0;
+}
+.edu_art .subheading {
+  margin-top: 30px;
+}
+.edu_art .thin {
+  margin-bottom: 10px;
+}
+
+#about_me {
+  margin: 0 10% 40px 10%;
+}
+
+#about_me_intro div {
+  max-width: 600px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#portrait {
+  width: 30%;
+  height: 30%;
+  max-width: 400px;
+  align-self: flex-start;
+  margin: 60px 0 0 20px;
+}
+
+#arrow_about {
+  width: 70%;
+  max-width: 400px;
+  align-self: center;
+}
+
+.svgMask_portrait {
+  -webkit-mask-image: url("../images/svg/portrait_frame.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  -webkit-mask-mode: alpha;
+
+  mask-image: url("../images/svg/portrait_frame.svg");
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-mode: alpha;
+}

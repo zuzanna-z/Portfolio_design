@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("header.css");
+@import url("elements.css");
+@import url("footer.css");
+@import url("case_art.css");
+@import url("body.css");
+@import url("about.css");
+@import url("scale_down.css");
+
+
+:root {
+  --white: #ebfaff;
+  --black: #01161e;
+  --dark-blue: #002f40;
+  --blue: #77a5b6;
+  --light-blue: #c3edfd;
+  --green: #9de38c;
+  --purple: #a74482;
+  --light-purple: #dca8c9;
+  --rasberry: #8c2155;
+}
+
+
